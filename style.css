@@ -1,0 +1,292 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #140101;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    height: 60px;
+}
+span {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    padding-left: 25px;
+}
+h2 {
+    color: rgb(217, 39, 93);
+    margin-left: 50px;
+    font-size: 30px;
+    padding-bottom: 0%;
+}
+.navbar a {
+    word-spacing: 15px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.navbar a:link {
+    color:  rgb(217, 39, 93);
+}
+.navbar a:hover {
+    color: white;
+}
+.navbar a:visited {
+    color:  rgb(217, 39, 93);
+}
+#Home {
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/blurred-gradient-background-pink-color_58702-1643.jpg?semt=ais_user_personalization&w=740&q=80);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+}
+#Home img {
+    padding-top: 20px;
+}
+#Home h1 {
+    font-size: 40px;
+    color: rgb(24, 1, 8);
+}
+#Home .ln a:link {
+    color: black;
+}
+#Home .gb a:link {
+    color: black;
+}
+#About {
+    padding-bottom: 40px;
+}
+#About h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+}
+.About {
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.About img {
+    height: auto;
+    max-height: 500px;
+    margin-left: 15px;
+    border: 5px solid  rgb(217, 39, 93);
+    border-radius: 5px;
+}
+.About p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+.About {
+    display: flex;
+    gap: 40px;
+}
+.side h1 {
+    color: rgb(217, 39, 93);
+    font-size: 30px;
+    padding-top: 10px;
+}
+.side ul {
+    font-size: 20px;
+    line-height: 1.8;
+}
+#Education {
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/blurred-gradient-background-pink-color_58702-1643.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Education h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: rgb(1, 0, 0);
+}
+
+.clg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 3px solid rgba(3, 0, 0);
+    text-align: center;
+    margin: 20px 40px; 
+    padding: 20px 60px; 
+    
+}
+.clg span {
+    padding-left: 0px;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: bold;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.clg p {
+    font-size: 25px; 
+    font-weight: bold;
+    line-height: 1.8;
+}
+.scl {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 10px;
+    border: 3px solid rgba(3, 0, 0);
+    text-align: center;
+    margin: 20px 40px; 
+    padding: 20px 60px;
+}
+.scl span {
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: bold;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.scl p {
+    font-size: 25px; 
+    font-weight: bold;
+    line-height: 1.8;
+}
+.scl1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px;
+    padding-left: 10px;
+    border: 3px solid rgba(3, 0, 0);
+    text-align: center;
+    margin: 20px 40px;
+    padding: 20px 60px;
+}
+.scl1 span {
+    padding-left: 0px;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: bold;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.scl1 p {
+    font-size: 25px; 
+    font-weight: bold;
+    line-height: 1.8;
+}
+#Skills {
+    padding-bottom:50px;
+}
+.h {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(217, 39, 93);
+}
+.h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px;
+    color: rgb(217, 39, 93);
+}
+.h2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end ;
+    padding: 0px 30px;
+    color: rgb(217, 39, 93);
+}
+.p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+.p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+hr {
+    border: 1px solid rgb(217, 39, 93);
+}
+#Projects {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(https://img.freepik.com/free-photo/blurred-gradient-background-pink-color_58702-1643.jpg?semt=ais_user_personalization&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}   
+.tr1 td {
+    text-align: center;
+    padding: 20px 60px; 
+}
+.tr1 td h1 {
+    font-size: 25px;
+    color: rgb(1, 0, 0);
+}
+.tr1 td p {
+    font-size: 18px;
+    line-height: 1.3;
+}
+.tr1 td .btn {
+    border: 2px solid rgb(217, 39, 93);
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(217, 39, 93);
+    color: white;
+}
+#Contact {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+.ln a:link {
+    color: white;
+}
+.gb a:link {
+    color: white;
+}
+.f1 {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 18px;
+}
+.f1 a:link {
+    color: white;
+    font-size: 18px;
+}
+.f2 {
+    text-align: center;
+    line-height: 1.8;
+}
+.f2 a:link {
+    color: white;
+    font-size: 18px;
+}  
+.f1 a:hover {
+    color:  rgb(217, 39, 93);
+} 
+.f2 a:hover {
+    color:  rgb(217, 39, 93);
+}
