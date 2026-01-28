@@ -41,7 +41,7 @@ h2 {
 #Home {
     text-align: center;
     background-image: url(https://img.freepik.com/free-photo/blurred-gradient-background-pink-color_58702-1643.jpg?semt=ais_user_personalization&w=740&q=80);
-    height: 550px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 140px;
@@ -95,6 +95,7 @@ h2 {
     font-size: 20px;
     line-height: 1.8;
 }
+
 #Education {
     text-align: center;
     background-image: url(https://img.freepik.com/free-photo/blurred-gradient-background-pink-color_58702-1643.jpg?semt=ais_user_personalization&w=740&q=80);
