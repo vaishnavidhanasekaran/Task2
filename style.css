@@ -46,8 +46,11 @@ h2 {
     background-size: cover;
     padding-top: 140px;
 }
-#Home img {
-    padding-top: 20px;
+.pro {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(217, 39, 93);
+    border-radius: 100px;
 }
 #Home h1 {
     font-size: 40px;
@@ -228,7 +231,7 @@ hr {
     background-image: url(https://img.freepik.com/free-photo/blurred-gradient-background-pink-color_58702-1643.jpg?semt=ais_user_personalization&w=740&q=80);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 650px;
 }   
 .tr1 td {
     text-align: center;
@@ -253,7 +256,7 @@ hr {
     color: white;
 }
 #Contact {
-    padding-top: 30px;
+    max-height: 500px;
     padding-bottom: 50px;
     background-color: black;
     color: white;
@@ -261,6 +264,8 @@ hr {
 footer {
     display: flex;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .ln a:link {
     color: white;
@@ -290,4 +295,36 @@ footer {
 } 
 .f2 a:hover {
     color:  rgb(217, 39, 93);
+}
+@media (max-width: 700px) {
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    nav {
+        gap: 30px;
+        padding: 0 20px;
+    }
+    .navbar a {
+        font-size: 11px;
+    }
+    h2 {
+        margin-left: 0;
+        font-size: 20px;
+    }
+    #Projects {
+        height: 1100px;
+    }
+    footer {
+        height: 500px;
+    }
+    .About {
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    .side {
+        padding-right: 40px;
+    }
 }
