@@ -1,7 +1,14 @@
 body {
     box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+    margin: 20px;
+}
+.Vaishu a {
+    text-decoration: none;
+}
+.home {
+    display: flex;
+    gap: 150px;
+    margin-left: 40px;
 }
 nav {
     display: flex;
@@ -28,6 +35,7 @@ h2 {
     word-spacing: 15px;
     padding-right: 30px;
     font-size: 20px;
+    text-decoration: none;
 }
 .navbar a:link {
     color:  rgb(217, 39, 93);
@@ -47,10 +55,14 @@ h2 {
     padding-top: 140px;
 }
 .pro {
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 300px;
     border: 2px solid rgb(217, 39, 93);
-    border-radius: 100px;
+    border-radius: 30px;
+    margin-left: 300px;
+}
+.text {
+    margin-top: 80px;
 }
 #Home h1 {
     font-size: 40px;
@@ -61,6 +73,11 @@ h2 {
 }
 #Home .gb a:link {
     color: black;
+}
+.ligi {
+    display: flex;
+    gap: 50px;
+    margin-left: 140px;
 }
 #About {
     padding-bottom: 40px;
@@ -98,7 +115,6 @@ h2 {
     font-size: 20px;
     line-height: 1.8;
 }
-
 #Education {
     text-align: center;
     background-image: url(https://img.freepik.com/free-photo/blurred-gradient-background-pink-color_58702-1643.jpg?semt=ais_user_personalization&w=740&q=80);
@@ -112,19 +128,17 @@ h2 {
     padding-bottom: 20px;
     color: rgb(1, 0, 0);
 }
-
 .clg {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
     align-items: flex-start;
     font-size: 15px;
     padding-left: 10px;
     border: 3px solid rgba(3, 0, 0);
-    text-align: center;
     margin: 20px 40px; 
     padding: 20px 60px; 
-    
+    max-width: fit-content;
 }
 .clg span {
     padding-left: 0px;
@@ -148,6 +162,8 @@ h2 {
     text-align: center;
     margin: 20px 40px; 
     padding: 20px 60px;
+    max-width: fit-content;
+    margin-left: auto;
 }
 .scl span {
     font-size: 20px;
@@ -171,6 +187,8 @@ h2 {
     text-align: center;
     margin: 20px 40px;
     padding: 20px 60px;
+    max-width: fit-content;
+    
 }
 .scl1 span {
     padding-left: 0px;
@@ -186,6 +204,18 @@ h2 {
 }
 #Skills {
     padding-bottom:50px;
+}
+.progress1 {
+  width: 400px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.bar1 {
+  background-color: rgb(217, 39, 93);
+  color: white;
+  text-align: center;
+  padding: 5px 0;
 }
 .h {
     font-size: 50px;
@@ -225,7 +255,7 @@ hr {
     border: 1px solid rgb(217, 39, 93);
 }
 #Projects {
-    text-align: center;
+    /* text-align: center; */
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: url(https://img.freepik.com/free-photo/blurred-gradient-background-pink-color_58702-1643.jpg?semt=ais_user_personalization&w=740&q=80);
@@ -234,7 +264,7 @@ hr {
     height: 650px;
 }   
 .tr1 td {
-    text-align: center;
+    /* text-align: center; */
     padding: 20px 60px; 
 }
 .tr1 td h1 {
@@ -274,7 +304,7 @@ footer {
     color: white;
 }
 .f1 {
-    text-align: center;
+    /* text-align: center; */
     line-height: 1.8;
     font-size: 18px;
 }
@@ -283,7 +313,7 @@ footer {
     font-size: 18px;
 }
 .f2 {
-    text-align: center;
+    /* text-align: center; */
     line-height: 1.8;
 }
 .f2 a:link {
